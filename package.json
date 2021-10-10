@@ -9,6 +9,9 @@
     "e2e": "nx e2e"
   },
   "private": true,
+  "workspaces": [
+    "libs/*"
+  ],
   "dependencies": {
     "@changesets/cli": "^2.17.0",
     "core-js": "^3.6.5",
