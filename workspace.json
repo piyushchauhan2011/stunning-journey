@@ -112,7 +112,7 @@
           "executor": "@nrwl/web:package",
           "outputs": ["{options.outputPath}"],
           "options": {
-            "outputPath": "dist/libs/use-viewport-size",
+            "outputPath": "libs/use-viewport-size/dist",
             "tsConfig": "libs/use-viewport-size/tsconfig.lib.json",
             "project": "libs/use-viewport-size/package.json",
             "entryFile": "libs/use-viewport-size/src/index.ts",

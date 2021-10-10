@@ -1,4 +1,7 @@
 {
   "name": "@piyushchauhan2011/use-viewport-size",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "publishConfig": {
+    "directory": "dist"
+  }
 }
