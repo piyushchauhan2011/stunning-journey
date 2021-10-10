@@ -4,7 +4,7 @@
   "workspaces": [
     "libs/*"
   ],
-  "repository": "git@github.com:piyushchauhan2011/miniature-waffle.git",
+  "repository": "git@github.com:piyushchauhan2011/stunning-journey.git",
   "author": "Piyush Chauhan <piyushchauhan2011@gmail.com>",
   "scripts": {
     "start": "nx serve",

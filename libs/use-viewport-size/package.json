@@ -1,8 +1,18 @@
 {
   "name": "@piyushchauhan2011/use-viewport-size",
   "version": "0.1.1",
+  "description": "use-viewport-size",
+  "author": "Piyush Chauhan <piyushchauhan2011@gmail.com>",
+  "homepage": "https://github.com/piyushchauhan2011/stunning-journey#readme",
   "publishConfig": {
     "directory": "dist",
-    "registry": "https://npm.pkg.github.com/@piyushchauhan2011"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushchauhan2011/stunning-journey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/piyushchauhan2011/stunning-journey/issues"
   }
 }
