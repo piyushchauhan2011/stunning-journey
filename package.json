@@ -6,7 +6,9 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "e2e": "nx e2e"
+    "e2e": "nx e2e",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
   },
   "private": true,
   "workspaces": [
