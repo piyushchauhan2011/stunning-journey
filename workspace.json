@@ -102,6 +102,47 @@
           }
         }
       }
+    },
+    "use-viewport-size": {
+      "root": "libs/use-viewport-size",
+      "sourceRoot": "libs/use-viewport-size/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:package",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/libs/use-viewport-size",
+            "tsConfig": "libs/use-viewport-size/tsconfig.lib.json",
+            "project": "libs/use-viewport-size/package.json",
+            "entryFile": "libs/use-viewport-size/src/index.ts",
+            "external": ["react/jsx-runtime"],
+            "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+            "assets": [
+              {
+                "glob": "libs/use-viewport-size/README.md",
+                "input": ".",
+                "output": "."
+              }
+            ]
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "outputs": ["{options.outputFile}"],
+          "options": {
+            "lintFilePatterns": ["libs/use-viewport-size/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/use-viewport-size"],
+          "options": {
+            "jestConfig": "libs/use-viewport-size/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@piyushchauhan2011/use-viewport-size": [
+        "libs/use-viewport-size/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
