@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 
 export function useViewportSize() {
+  console.log('useViewportSize');
   const getSize = useCallback(() => {
     return { width: window.innerWidth, height: window.innerHeight };
   }, []);
