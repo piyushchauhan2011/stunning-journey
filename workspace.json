@@ -146,7 +146,8 @@
     }
   },
   "cli": {
-    "defaultCollection": "@nrwl/react"
+    "defaultCollection": "@nrwl/react",
+    "packageManager": "yarn"
   },
   "generators": {
     "@nrwl/react": {

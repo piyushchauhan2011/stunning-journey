@@ -1,7 +1,11 @@
 {
   "name": "piyushchauhan2011",
-  "version": "0.0.0",
-  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "libs/*"
+  ],
+  "repository": "git@github.com:piyushchauhan2011/miniature-waffle.git",
+  "author": "Piyush Chauhan <piyushchauhan2011@gmail.com>",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
@@ -10,10 +14,6 @@
     "version-packages": "changeset version",
     "release": "npm run build && changeset publish"
   },
-  "private": true,
-  "workspaces": [
-    "libs/*"
-  ],
   "dependencies": {
     "@changesets/cli": "^2.17.0",
     "core-js": "^3.6.5",
