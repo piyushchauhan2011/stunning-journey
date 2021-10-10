@@ -1,6 +1,6 @@
 {
   "name": "@piyushchauhan2011/use-viewport-size",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": {
     "directory": "dist",
     "registry": "https://npm.pkg.github.com/@piyushchauhan2011"
